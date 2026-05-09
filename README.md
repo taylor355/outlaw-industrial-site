@@ -33,3 +33,4 @@ The contact form uses Netlify Forms with the form name `quote-request`.
 The static detection file for Netlify Forms lives at `public/__forms.html`.
 
 After deployment, confirm Netlify detects the form under Site configuration > Forms.
+# outlaw-industrial-site
