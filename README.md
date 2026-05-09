@@ -30,7 +30,7 @@ npm audit --omit=dev
 ## Netlify
 
 The contact form uses Netlify Forms with the form name `quote-request`.
-The static detection file for Netlify Forms lives at `public/__forms.html`.
+The site is exported as static files to `out`.
 
 After deployment, confirm Netlify detects the form under Site configuration > Forms.
 # outlaw-industrial-site
