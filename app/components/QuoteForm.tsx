@@ -36,6 +36,16 @@ export function QuoteForm() {
         <label htmlFor="message">What can we help with?</label>
         <textarea id="message" name="message" required />
       </div>
+      <label className="consent-field">
+        <input name="sms-consent" type="checkbox" value="yes" />
+        <span>
+          I agree that Outlaw Industrial may text me about my request or active
+          service relationship. Message frequency varies. Message and data rates
+          may apply. Reply STOP to opt out or HELP for help. Consent is not a
+          condition of purchase. See our <a href="/sms-terms">SMS Terms</a> and{" "}
+          <a href="/privacy-policy">Privacy Policy</a>.
+        </span>
+      </label>
       <button className="button button-primary" type="submit">
         Send Request
       </button>

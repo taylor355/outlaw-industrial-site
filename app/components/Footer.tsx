@@ -25,6 +25,12 @@ export function Footer() {
             <span className="footer-label">Company</span>
             <p>Outlaw Industrial LLC</p>
             <p>Licensed and insured</p>
+            <p>
+              <a href="/privacy-policy">Privacy Policy</a>
+            </p>
+            <p>
+              <a href="/sms-terms">SMS Terms</a>
+            </p>
           </div>
         </div>
         <div className="footer-bottom">
